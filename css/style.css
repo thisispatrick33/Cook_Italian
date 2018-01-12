@@ -1,0 +1,695 @@
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					  	  ●● CSS_RESET ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					    ●● END_CSS_RESET ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+
+
+
+
+
+
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					  ●● MAIN_INFORMATIONS ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+/*--FONT--*/
+
+@font-face{
+	font-family: 'Lemon Milk';
+    src: url(../fonts/LemonMilk.otf);
+}
+/*--FONT_END--*/
+
+/*--NAVIGATION--*/
+nav{
+	display: block;
+	background-color: rgba(0,0,0,1);
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	padding-bottom: 1%;
+}
+nav ul{
+	display: block;
+}
+nav ul img#logo{
+	width: 128px;
+	height: auto;
+	margin-left: 2%;
+	padding-bottom: 10px;
+
+}
+nav ul div{
+	display: inline;
+	padding-left: 20%;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li img{
+	display: block;
+	padding: 0px 22px ;
+	border-radius: 50%;
+}
+nav ul li span{
+	padding-top: 15px;
+	display: block;
+	font-family: 'Lemon Milk';
+	font-size: 20px;
+	color: white;
+	padding-left: 20%;
+}
+nav ul li span#one{
+	padding-left: 26%;
+}
+/*--NAVIGATION_END--*/
+
+
+/*--BODY--*/
+body{
+	background-color : rgb(18,18,18);
+}
+/*--BODY_END--*/
+
+/*--ASIDE--*/
+content aside h3{
+	font-size: 25px;
+	font-family: 'Lemon Milk';
+	padding : 15px;
+}
+content aside p{
+	font-size: 12px;
+	font-family: 'Century Gothic';
+	padding : 20px 15px;
+}
+/*--END_ASIDE--*/
+
+/*--FOOTER--*/
+footer{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	background-color: rgba(0,0,0,1);
+}
+footer div img{
+	width: 15%;
+	margin-left: 42%;
+}
+footer div ul{
+	display: block;
+}
+footer div h1{
+	color: white;
+	font-family: 'Century Gothic';
+	font-size: 15px;
+	padding: 25px;
+	text-align : center;
+
+}
+footer div ul{
+	display: block;
+	margin:1% 46%;
+}
+#FB,#FB:hover, #IG, #IG:hover,#TW, #TW:hover{
+	display: inline-block;
+	background-size: cover;
+	padding: 13px;
+	width: 3px;
+	height: 3px;
+}
+#FB{
+	background-image: url(../images/social_pages/Facebook.png);
+}
+#FB:hover{
+	background-image: url(../images/social_pages/Facebook_hover.png);
+}
+#IG{
+	background-image: url(../images/social_pages/Instagram.png);
+}
+#IG:hover{
+	background-image: url(../images/social_pages/instagram_hover.png);
+}
+#TW{
+	background-image: url(../images/social_pages/Twitter.png);
+}
+#TW:hover{
+	background-image: url(../images/social_pages/Twitter_hover.png);
+}
+/*--FOOTER_END--*/
+
+
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					●● END_MAIN_INFORMATIONS ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+
+
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					  	  ●● MAIN_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+
+/*--HEADER--*/
+header{
+	background-image: url("../images/header_background.gif");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header img{
+	display: block;
+	width: 31%;
+	height: auto;
+	padding-left: 32%;
+	margin-bottom : 9%;
+}
+header p{
+	display: inline;
+	border: 2px solid white;
+	border-radius: 10px;
+	color: white;
+	font-size: 330%;
+	font-family: 'Lemon Milk';
+	padding: 0.8%;  
+	margin-left: 34.6%;
+}
+header div{
+	padding-bottom : 13%;
+}
+
+/*--LINK_HEADER--*/
+a:link{
+	text-decoration : none; 
+}
+header p:hover{
+	background-color: white;
+	color: black;
+}
+a:visited{
+	text-decoration : none; 
+}
+/*--END_LINK_HEADER--*/
+
+/*--HEADER_END--*/
+
+
+/*--CONTENT--*/
+content{
+	display: block;
+	
+}
+content aside{
+	background-color: rgba(0,0,0,1);
+	color: white;
+	width: 15%;
+	float: left;
+}
+content article{
+	width: 85%;
+	float: right;
+	padding: 22px 0px;
+
+}
+content article#one{
+	display: block;
+	background-color: white;
+}
+content article#one h1{
+	font-size: 45px;
+	font-family: 'Lemon Milk';
+	padding : 25px 15px;
+	display: block;
+	text-align: center
+}
+content article#one p{
+	font-size: 25px;
+	font-family: 'Century Gothic';
+	padding : 0 105px;
+	display: block;
+	text-align: center
+}
+content article#two{
+	display: block;
+	background-color: white;
+}
+content article#two div#flex{
+	display: flex;
+}
+content article#two div#flex div{
+	display: block;
+	padding: 25px;
+	float: left;
+	width: 33%;
+}
+content article#two div#flex div h3{
+	display: block;
+	padding: 25px;
+	font-family: 'Lemon Milk';
+	font-size: 25px;
+	text-align : center;
+}
+content article#two div#flex div p{
+	display: block;
+	padding: 0 5px;
+	font-family: 'Century Gothic';
+	font-size: 18px;
+	text-align : center;
+}
+.info{
+	display: none;
+}
+
+.typ:hover > .názov{
+	display:none;
+}
+
+.typ:hover > .info{
+	display: block;
+}
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					  ●● END_MAIN_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					  ●● NEXT_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+article.about{
+	width: 85%;
+	padding: 0;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+div.about{
+	background-color: rgba(0,0,0,0.7);
+	margin: 0% 0% 0% 40%;
+	padding: 3%;
+}
+div.about h1{
+	color: white;
+	font-family: 'Lemon Milk';
+	padding: 2%;
+	font-size: 200%;
+}
+div.about p{
+	color: white;
+	font-family: 'Century Gothic';
+	padding: 2% 15% 2% 2%;
+	font-size: 100%;
+}
+
+article.next_content{
+	width: 85%;
+    margin: 35px 0 0 0;
+
+}
+article.next_content h1{
+	color: white;
+	font-family: 'Lemon Milk';
+	display: block;
+	text-align: center;
+	margin-bottom: 22px;
+	font-size: 25px;
+}
+article.next_content div.typ{
+	margin: 15px;
+	width: 275px;
+	height: 175px;
+	display: inline-block;
+	background-size: cover;
+	border-radius: 10px;
+}
+article.next_content div.typ p{
+	text-align: center;
+	color: white;
+	font-family: 'Lemon Milk';
+	font-size: 150%;
+	padding-top: 25%;
+}
+article.next_content div.typ div.info{
+	padding-top: 7% ;
+}
+article.next_content div.typ div.info p{
+	text-align: center;
+	color: white;
+	font-family: 'Lemon Milk';
+	font-size: 110%;
+	padding-top: 6%;
+}
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					  ●● END_NEXT_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+						   ●● PIZZA_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+article#about_pizza{
+	background-image: url("../images/pizza/about_pizza.jpeg");
+}
+article.next_content div.typ div.info p.obsah{
+	line-height: 130%;
+}
+article.next_content div#margherita{
+	background-image: url(../images/pizza/01.png);
+}
+article.next_content div#funghi{
+	background-image: url(../images/pizza/02.png);
+}
+article.next_content div#proscuitto{
+	background-image: url(../images/pizza/03.png);
+}
+article.next_content div#hawai{
+	background-image: url(../images/pizza/04.png);
+}
+article.next_content div#crudo{
+	background-image: url(../images/pizza/05.png);
+}
+article.next_content div#salami{
+	background-image: url(../images/pizza/06.png);
+}
+article.next_content div#contadiano{
+	background-image: url(../images/pizza/07.png);
+}
+article.next_content div#vegetariana{
+	background-image: url(../images/pizza/08.png);
+}
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					   ●● END_PIZZA_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+						   ●● PASTA_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+article#about_pasta{
+	background-image: url("../images/pasta/pasta.jpg");
+}
+article.next_content div.typ div.info p.obsah{
+	line-height: 130%;
+}
+article.next_content div#spaghetti_bolognese{
+	background-image: url(../images/pasta/01.jpg);
+}
+article.next_content div#tortelini_salmonese{
+	background-image: url(../images/pasta/02.jpg);
+}
+article.next_content div#penne{
+	background-image: url(../images/pasta/03.jpg);
+}
+article.next_content div#lasagne{
+	background-image: url(../images/pasta/04.jpg);
+}
+abbr{
+	font-weight: bold;
+	text-decoration: none;
+}
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					   ●● END_PASTA_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+						   ●● SALAD_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+article#about_salad{
+	background-image: url("../images/salad/salad.jpg");
+}
+article.next_content div.typ div.info p.obsah{
+	line-height: 130%;
+}
+article.next_content div#Taliano{
+	background-image: url(../images/salad/01.jpg);
+}
+article.next_content div#chicken{
+	background-image: url(../images/salad/02.jpg);
+}
+article.next_content div#salmon{
+	background-image: url(../images/salad/03.jpg);
+}
+article.next_content div#fruit{
+	background-image: url(../images/salad/04.jpg);
+}
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					   ●● END_SALAD_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+
+
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+						●● NÁKUP_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+
+/*--PLACE_HOLDER--*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(18,18,18);
+  font-family: 'Century Gothic';
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(18,18,18);
+  font-family: 'Century Gothic';
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(18,18,18);
+  font-family: 'Century Gothic';
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgb(18,18,18);
+  font-family: 'Century Gothic';
+}
+/*--END_PLACE_HOLDER--*/
+form{
+	margin: 0 16% 0 32%;
+}
+form p{
+	color: white;
+	font-family: 'Lemon Milk';
+	margin: 10px 5px;
+}
+legend{
+	color: white;
+	font-family: 'Lemon Milk';
+	margin: 15px 80px 35px;
+	font-size: 150%;
+}
+div.first{
+	padding: 8px 0;
+}
+div.first p{
+	display: inline;
+	color: white;
+	font-family: 'Lemon Milk';
+	padding-right: 17%;
+
+}
+input#adresa{
+	width: 350px;
+}
+form span{
+	font-family: 'Century Gothic';
+}
+input, select{
+	border: 3px solid white;
+	margin: 5px;
+	padding: 8px;
+	border-radius: 5px;
+	background-color: white;
+	font-family: 'Century Gothic';
+}
+input#email{
+	width: 350px;
+}
+textarea{
+	font-family: 'Century Gothic';
+	display: block;
+	width: 350px;
+	height: 150px;
+	text-align: left;
+	border: 3px solid white;
+	margin: 5px;
+	padding: 8px;
+	padding-top: 15px;
+	border-radius: 5px;
+}
+
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					●● END_NÁKUP_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					   ●● INFO_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
+h4{
+	color: white;
+	font-family: 'Lemon Milk';
+	margin: 2% 40%;
+	font-size: 200%;
+}
+table{
+	width: 95%;
+	text-align: center;
+	margin: 20px; 
+	font-family: 'Lemon Milk';
+
+}
+table, td, th {
+	border: 3px solid white;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px 1px;
+}
+thead {
+	background-color: white;
+	color: black;
+
+}
+table, td, th {
+	border: 3px solid white;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px 1px;
+}
+thead {
+	background-color: white;
+	color: black;
+
+}
+.times{
+	color: white;
+}
+h5{
+	color: white;
+	font-family: 'Lemon Milk';
+	margin: 5% 0% 0 2%;
+	font-size: 120%;
+	color: white;
+}
+#contact{
+	width: 350px;
+}
+#info form{
+	margin: 3% 1%;
+	padding: 0;
+}
+/*
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+
+					  ●● END_INFO_CONTENT ●●
+
+			◥◣◥◣◥◣◥◣◥◣◥◣◥◤◢◤◢◤◢◤◢◤◢◤◢◤
+*/
